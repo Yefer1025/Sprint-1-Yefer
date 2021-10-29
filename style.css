@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+form{
+    /* Centrar el formulario en la página */
+  margin-top: 10px;
+  margin-left: 430px;
+    width: 440px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 1em;
+    background-color: #d1df11;
+    text-align: center;
+    
+}
+a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(18, 208, 233);
+    width: 60px;
+    height: 90px;
+
+   
+}
+.href{
+    background-color: rgb(51, 73, 105);
+}
+
+.logo{
+    margin-top: 60px;
+    margin-left: 610px;
+    width: 140px;
+    height: 140px;
+    display: block;
+    align-content: center;
+
+}
+body{
+     background-color: rgb(13, 173, 80);
+     
+}
+.info{
+    text-align: justify;
+    margin: 20px;
+}
+.info p{
+    margin: 20px;
+}
+.info article{
+    border: 2px dotted rgb(4, 44, 22);
+    margin: 10px 50px ;
+    padding: 20px;
+    text-align: center;
+}
+.contenedor {
+    width: 95%;
+    align-content: center;
+    margin: auto;
+}
+
+div.galeria{
+    margin: 10px;
+    box-shadow: 2px 4px 8px rgb(233, 240, 234);
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 90px;
+}
+.galeria .img{
+    width: 300px;
+    height: 300px;
+   margin: 10px auto;
+}
+footer{
+    background-color: rgb(148, 133, 128);
+    color: rgb(27, 1, 1);
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}

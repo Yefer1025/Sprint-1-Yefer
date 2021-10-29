@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Insdustrias PC</title>
+</head>
+<body>
+    <header>
+        <h1>Orden de compra</h1>
+        <img id="logo" class="logo" src="./img/_Logo.png" alt="logo" >
+    </header>
+    <form action="" id="form">
+        <label for="cantiCompra">Numero de computadores que quieres comprar:</label><br>
+        <input id="cantiCompra"  type="number" placeholder="cantidad de computadores"><br>
+        <input type="button" id="botonCompra" value="Calcular" onclick="calcularValor()"><br> 
+       <label for="valor">Valor de compra: </label><br>    
+        <input type="number" id="valor"><br>
+        <label for="descuento">Valor de descuento:</label><br>   
+        <input type="number" id="descuento"><br>
+        <label for="totdesc">Total a pagar:</label><br>    
+        <input type="number" id="totdesc"> 
+    
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

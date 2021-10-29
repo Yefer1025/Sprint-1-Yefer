@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Home</title>
+</head>
+
+<body>
+   <header>
+      <h1>Almacen de computadores</h1>
+      <img id="logo" class="logo" src="./img/_Logo.png" alt="Logo">
+   </header>
+   <script src="script.js"></script>
+   <form action="" id="form">
+      <label for="cantiCompra">Numero de computadores que quieres comprar:</label><br>
+      <input id="cantiCompra" type="number" placeholder="cantidad de computadores"><br>
+      <a href="compra.html" class="btnsuccess" id="botonCompra" type="button" value="clickme"
+         onclick="calculoValor()">Calcular</a>
+   </form>
+   <main class="info">
+      <p>
+         Queridos clientes recuerden que tienen derecho a recibir un descuento
+         sobre el monto de la compra. Si la compra es mayor o igual a $1.640.000 pero menor o
+         igual a $3.280.000 el descuento será de 15%. Si la compra es mayor a $3.280.000
+         y menor o igual a $6.560.000 su descuento será de 25%.
+         Si la compra es mayor a $6.560.000 y menor o igual a 9.840.000 el descuento será de 35%
+         y si la compra es mayor a $9.840.000 no tendrá derecho a recibir un descuento.
+      </p>
+      <article>
+         El valor de un computador es de $820.000
+      </article>
+
+   </main>
+
+   <div>
+      <h1>Galería</h1>
+   </div>
+   <div class="contenedor">
+      <div class="galeria">
+         <div id="pc1" class="pc1">
+            <img class="img" src="./img/Asus ZenBook 13 UX333FA.jpeg" alt="Asus ZenBook 13 UX333FA">
+            <p>Pc Asus ZenBook 13 UX333FA</p>
+         </div>
+      </div>
+
+      <div class="galeria">
+         <div id="pc2" class="pc2">
+            <img class="img" src="./img/Dell XPS 13.jpeg" alt="Dell XPS 13">
+            <p>Pc Dell XPS 13</p>
+         </div>
+      </div>
+
+      <div class="galeria">
+         <div id="pc3" class="pc3">
+            <img class="img" src="./img/HP Elite Dragonfly Max.jpeg" alt=" HP Elite Dragonfly Max">
+            <p>Pc HP Elite Dragonfly Max</p>
+         </div>
+      </div>
+
+      <div class="galeria">
+         <div id="pc4" class="pc4">
+            <img class="img" src="./img/MacBook Pro 13.jpeg" alt="MacBook Pro 13">
+            <p>Pc MacBook Pro 13</p>
+         </div>
+      </div>
+
+      <div class="galeria">
+         <div id="pc5" class="pc5">
+            <img class="img" src="./img/Microsoft Surface Pro 8.png" alt="Microsoft Surface Pro 8">
+            <p>Pc Microsoft Surface Pro 8</p>
+         </div>
+      </div>
+
+      <div class="galeria">
+         <div id="pc6" class="pc6">
+            <img class="img" src="./img/Razer Blode Pro.jpeg" alt="Razer Blode Pro">
+            <p>Pc Razer Blode Pro</p>
+         </div>
+      </div>
+
+
+   </div>
+   <footer>
+      <p>
+         Academia Geek Aprendices 2021
+      </p>
+   </footer>
+
+</body>
+
+</html>
